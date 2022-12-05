@@ -1,0 +1,18 @@
+<?php
+
+namespace DummyNamespace;
+
+use Polygontech\DataMigration\Contracts\DataMigrationInterface;
+
+class DummyClass implements DataMigrationInterface
+{
+    /**
+     * Run the migration.
+     *
+     * @return null | string
+     */
+    public function handle()
+    {
+        //
+    }
+}

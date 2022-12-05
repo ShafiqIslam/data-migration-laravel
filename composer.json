@@ -1,0 +1,36 @@
+{
+    "name": "polygontech/data-migration-laravel",
+    "type": "library",
+    "description": "Migration utility for creating or changing data in production",
+    "keywords": [
+        "migration",
+        "production data",
+        "production seed",
+        "version control of data changes"
+    ],
+    "homepage": "https://github.com/ShafiqIslam/data-migration-laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shafiqul Islam",
+            "email": "shafiq.startern@gmail.com",
+            "homepage": "https://github.com/ShafiqIslam/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polygontech\\DataMigration\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Polygontech\\DataMigration\\ServiceProvider"
+            ]
+        }
+    }
+}
